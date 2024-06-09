@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" minHeight="576.0" minWidth="768.0" prefHeight="576.0" prefWidth="768.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <StackPane maxHeight="576.0" maxWidth="768.0" minHeight="576.0" minWidth="768.0" prefHeight="576.0" prefWidth="768.0">
+         <children>
+            <ImageView fx:id="bg1" fitHeight="576.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@res/breadwallpaper.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="snackPicking" text="snack picking">
+               <font>
+                  <Font name="Apple Chancery" size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="startButton" mnemonicParsing="false" onMouseClicked="#onStartButtonClick" prefWidth="300.0" text="start">
+               <font>
+                  <Font name="Apple Chancery" size="24.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="200.0" />
+               </StackPane.margin>
+            </Button>
+            <ImageView fx:id="bg2" fitWidth="768.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/c6eae4b53bf77289a0b1775711bb4086.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="gameRules" layoutX="75.0" layoutY="126.0" text="pick the right object 70 times in a row to get a reward!" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="24.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="400.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="pickChar" text="pick your character! as soon as you click pick, the game will start" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="24.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="300.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fx:id="lola" fitHeight="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/image-removebg-preview (3).png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="525.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="lolades" prefHeight="101.0" prefWidth="174.0" text="lola’s a playful bunny and loves to nibble on carrots. she gets feisty if you catch her other objects!" textAlignment="CENTER" visible="false" wrapText="true">
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="525.0" top="300.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fx:id="elisa" fitHeight="200.0" layoutX="82.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/elisa.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="200.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="elisades" layoutX="57.0" layoutY="398.0" prefHeight="137.0" prefWidth="174.0" text="compared to other cats, elisa's relatively calmer. however, if you don’t bring her her daily dose of fish, she will scratch your eyes out." textAlignment="CENTER" visible="false" wrapText="true">
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="200.0" top="300.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fx:id="milo" fitHeight="300.0" layoutX="257.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/milo.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="200.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="milodes" layoutX="232.0" layoutY="380.0" prefHeight="137.0" prefWidth="174.0" text="looks like milo, called milo, but doesn’t like milo. you better bring him his chicken, or he’ll be grumpy!" textAlignment="CENTER" visible="false" wrapText="true">
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="175.0" top="300.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fx:id="roco" fitHeight="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/roco.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="525.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="rocodes" prefHeight="137.0" prefWidth="174.0" text="roco comes and goes, but his nuts should stay always. have his nuts ready for him, because you might not see him again otherwise." textAlignment="CENTER" visible="false" wrapText="true">
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="525.0" top="300.0" />
+               </StackPane.margin>
+            </Label>
+            <Button fx:id="lolaButton" mnemonicParsing="false" onMouseClicked="#onPickLolaButtonClick" text="pick!" visible="false">
+               <StackPane.margin>
+                  <Insets right="525.0" top="500.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="elisaButton" mnemonicParsing="false" onMouseClicked="#onPickElisaButtonClick" text="pick!" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="200.0" top="500.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="miloButton" mnemonicParsing="false" onMouseClicked="#onPickMiloButtonClick" text="pick!" visible="false">
+               <StackPane.margin>
+                  <Insets left="200.0" top="500.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="rocoButton" mnemonicParsing="false" onMouseClicked="#onPickRocoButtonClick" text="pick!" visible="false">
+               <StackPane.margin>
+                  <Insets left="525.0" top="500.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Apple Chancery" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="scoreText">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="500.0" left="650.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="timerText">
+               <StackPane.margin>
+                  <Insets bottom="500.0" right="650.0" />
+               </StackPane.margin>
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="carrot1" fitHeight="50.0" onMouseClicked="#carrotClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/carrot.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="400.0" right="500.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="carrot2" fitHeight="50.0" onMouseClicked="#carrotClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/carrot.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="100.0" top="300.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="carrot3" fitHeight="50.0" onMouseClicked="#carrotClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/carrot.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="150.0" left="500.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="carrot4" fitHeight="50.0" onMouseClicked="#carrotClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/carrot.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="650.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="carrot5" fitHeight="50.0" onMouseClicked="#carrotClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/carrot.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fish1" fitHeight="75.0" onMouseClicked="#fishClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/fish.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="70.0" top="100.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="fish2" fitHeight="75.0" onMouseClicked="#fishClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/fish.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="300.0" left="700.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="fish3" fitHeight="75.0" onMouseClicked="#fishClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/fish.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="300.0" top="375.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="fish4" fitHeight="75.0" onMouseClicked="#fishClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/fish.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="350.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="fish5" fitHeight="75.0" onMouseClicked="#fishClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/fish.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="200.0" right="425.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="bone1" fitHeight="75.0" onMouseClicked="#boneClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/chickenbone.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="300.0" top="150.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="bone2" fitHeight="75.0" onMouseClicked="#boneClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/chickenbone.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="175.0" left="175.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="bone3" fitHeight="75.0" onMouseClicked="#boneClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/chickenbone.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="700.0" top="350.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="bone4" fitHeight="75.0" onMouseClicked="#boneClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/chickenbone.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="150.0" top="475.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="bone5" fitHeight="75.0" onMouseClicked="#boneClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/chickenbone.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="650.0" top="500.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="nut1" fitHeight="75.0" onMouseClicked="#nutClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/nut.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="250.0" top="250.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="nut2" fitHeight="75.0" layoutX="357.0" layoutY="261.0" onMouseClicked="#nutClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/nut.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="500.0" right="450.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="nut3" fitHeight="75.0" onMouseClicked="#nutClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/nut.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="300.0" left="500.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="nut4" fitHeight="75.0" onMouseClicked="#nutClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/nut.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="300.0" top="500.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="nut5" fitHeight="75.0" onMouseClicked="#nutClick" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/nut.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets right="700.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="starBanner" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/star_banner.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets bottom="300.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="completed" text="game completed!" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="28.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="200.0" />
+               </StackPane.margin>
+            </Label>
+            <Label fx:id="scoreText2">
+               <font>
+                  <Font name="Apple Chancery" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="presentClosed" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#openingPresent" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/presentclosed.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets top="400.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="openPresent" layoutX="394.0" layoutY="272.0" text="click the present to gain rewards!" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="28.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="100.0" />
+               </StackPane.margin>
+            </Label>
+            <ImageView fx:id="presentOpened" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/presentopen.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="50.0" top="410.0" />
+               </StackPane.margin>
+            </ImageView>
+            <ImageView fx:id="timeLogo" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@res/timer.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets top="200.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Label fx:id="plusTimeText">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets left="150.0" top="200.0" />
+               </StackPane.margin>
+            </Label>
+            <Button fx:id="playAgain" mnemonicParsing="false" onMouseClicked="#onPlayAgainClick" text="return to home" visible="false">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets right="550.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+      </StackPane>
+   </children>
+</VBox>
